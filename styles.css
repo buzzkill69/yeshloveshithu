@@ -1,0 +1,67 @@
+body {
+    font-family: 'Playwrite GB S', sans-serif; /* Use the new font here */
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover; /* Make the background cover the entire area */
+    background-position: center; 
+    text-align: center;
+    color: #f7f5f5; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px; /* Space above the content */
+}
+
+h1 {
+    color: #ff69b4; /* Pink color for the main title */
+    font-size: 36px; /* Increased font size for h1 */
+}
+
+h2 {
+    color: #ff69b4; /* Pink color for subheadings */
+    font-size: 28px; /* Increased font size for h2 */
+}
+
+p {
+    font-size: 20px; /* Increased font size for paragraph text */
+}
+
+#reasons ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#reasons li {
+    font-size: 22px; /* Increased font size for list items */
+    margin: 10px 0; /* Space between list items */
+}
+
+#proposal button {
+    background-color: #ff69b4; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 15px 30px; /* Button padding */
+    font-size: 20px; /* Increased font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 20px; /* Space around buttons */
+    border-radius: 10px; /* Rounded corners for buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#proposal button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+#home, #story, #reasons, #proposal {
+    margin-top: 50px; /* Space above sections */
+    animation: fadeIn 2s ease-in-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; } /* Start fully transparent */
+    to { opacity: 1; } /* End fully opaque */
+}
